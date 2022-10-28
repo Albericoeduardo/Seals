@@ -58,6 +58,9 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 <h3>Autenticação</h3>
 
+      As autenticações presentes no projeto estão em desenvolvimento, podendo ser alteradas a qualquer momento.
+
+[Autenticação](https://github.com/Albericoeduardo/Seals/blob/main/Scr/6.1%20Autentica%C3%A7%C3%A3o/Autentica%C3%A7%C3%A3o.md)
 
 <h3>Casos de uso</h3>
 
