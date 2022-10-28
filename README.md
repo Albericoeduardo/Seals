@@ -54,7 +54,7 @@ PRODUTOS - Main/Produtos
 
 A criação do banco de dados se fez necessária desde os pré-requisitos iniciais propostos para o projeto. O banco de dados é MySQL e irá ser populado por PHP.
 
-[Modelo Lógico](https://github.com/Albericoeduardo/Seals/blob/main/Scr/Banco%20de%20dados/Modelo_L%C3%B3gico.md)
+[Modelo Lógico](https://github.com/Albericoeduardo/Seals/blob/main/Scr/7.1%20Banco%20de%20dados/Modelo_L%C3%B3gico.md)
 
 <h3>Autenticação</h3>
 
