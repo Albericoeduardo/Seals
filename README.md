@@ -64,8 +64,14 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 <h3>:computer: Casos de uso</h3>
 
-      Os diagramas presentes neste tópico serão somente os das funcionalidades interativas presentes na versão atual do projeto.
+      As tabelas presentes neste tópico serão somente as das funcionalidades interativas presentes na versão atual do projeto.
 
 [Tabelas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
+
+<h3>:briefcase:Regras de negócio</h3>
+
+      As regras de negócio presentes neste tópico serão somente as presente na versão atual do projeto.
+      
+[Tabelas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.1%20Regras%20de%20neg%C3%B3cio/Regras%20de%20neg%C3%B3cio.md)
 
    
