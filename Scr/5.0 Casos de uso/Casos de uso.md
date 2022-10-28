@@ -1,78 +1,99 @@
 ## Casos de uso
-<br>Cadastro<br>
+<br><b>Caso de uso:</b> Fazer cadastro</br>
+        <b>Atores:</b>Cliente, Loja
+        <br><b>Pré-condição:</b>Inserir dados corretos</br>
+        <b>Ações do sistema:</b>
+        <ul>
+            <li>Pedir dados</li>
+            <li>verificar dados</li>
+        </ul>
+        <b>Ações do cliente:</b>
+        <ul>
+            <li>Inserir dados</li>
+            <Li>Concluir Cadastro</Li>
+        </ul>
+        <b>Pós-condição:</b>Cadastro concluido. 
+    <h3 class= SegundoCaso> Login </h3>
+    <b>Caso de uso:</b>Fazer Login
+    <br><b>Atores:</b>Cliente, Loja</br>
+    <b>Pré-condição:</b>Ter cadastro.
+    <br><b>Fluxo principal:</b></br><b>Acões do sistema</b>
+    <ul>
+        <li>Pedir usuário e senha</li>
+        <li>Verificar usuário e senha</li>
+    </ul>
+    <b>Ações do cliente</b>
+    <ul>
+        <li>Inserir usuário e senha</li>
+        <li>realizar Login</li>
+    </ul>
+    <b>Fluxo de exceção:</b>
+    <br><b>Ações do cliente</b></br>
+    <ul>
+        <li>Cliente erra usuário ou senha</li>
+        <li>Cliente tenta fazer login sem possuir cadastro</li>
+    </ul>
+    <b>Ações do sistema</b>
+    <ul>
+        <li>Sistema oferece a opção recuperar senha</li>
+        <li>Sistema redireciona cliente para tela de cadastro</li>
+    </ul>
+    <b>Include:</b>Fazer Cadastro
+    <br><b>Pós-condição:</b>Login efetuado</br>
+    <h3 class= TerceiroCaso> Feedback</h3>
+    <B>Caso de uso:</B>Dar Feedback
+    <br><b>Atores:</b>Cliente, Loja</br>
+    <b>Pré-condição:</b>Ter email, Whatsapp ou Instagram.
+    <br><B>Fluxo principal:</B><br>
+    <b>Ações do sistema</b>
+    <ul>
+        <li>Mostrar opções de contato para o cliente</li>
+        <li>Receber o mensagem do cliente</li>
+    </ul>
+    <b>Ações do Cliente</b>
+    <ul>
+        <li>Selecionar incon de contato</li>
+        <li>Selecionar uma das opções de contato</li>
+        <li>Escrever algo sobre o site</li>
+    </ul>
+    <b>Include:</b> Fazer login
+    <br><b>Pós-condição:</b>Feedback dado<br>
+    <h3 class="QuartoCaso">Produto</h3>
+    <b>Casos de uso:</b>Selecionar Produto
+    <br><b>Atores:</b>Cliente,Loja<br>
+    <b>Fluxo principal:</b>
+    <br><b>Ação do sistema</b><br>
+    <ul>
+        <li>Armazenar produtos selecionados pelo cliente</li>
+    </ul>
+    <b>Ação do cliente</b>
+    <ul>
+        <li>Selecionar produtos de sua escolha</li>
+    </ul>
+    <b>Fluxo de exceção:</b> Produto não disponivel.
+    <br><B>Include:</B>Fazer login<br>
+    <b>Pós-condição:</b>Produto(s) no carrinho
+    <h3 class="QuintoCaso">Pagamento</h3>
+    <b>Casos de uso:</b>Realizar Pagamento.
+    <br><b>Atores:</b>Cliente,loja<br>
+    <b>Pré-condição:</b>Possuir cartão ou conta em algum banco.
+    <br><b>Fluxo principal:</b><br>
+    <b>Ação do sistema</b>
+    <ul>
+        <li>Pedir que o cliente ensira os dados necessarios, como nome completo, cpf, endereço , dados do banco ou do cartão</li>
+        <li>Informar o cliente se o pagamento foi efetuado</li>
+    </ul>
+    <b>Ação do cliente</b>
+    <ul>
+        <li>Inserir dados pessoais e bancarios</li>
+        <li>confirmar pagamento</li>
+    </ul>
+    <br><b>Fluxo Alternativo</b>
+    <ul>
+        <li>Cliente seleciona a forma de pagamento por boleto.</li>
+        <li>Sistema lança o boleto para o cliente, e aguarda o pagamento.</li>
+    </ul>
+    <b>Include:</b>Fazer login, selecionar produto(s).
+    <br><b>Pós-condição:</b>Pagamento efetuado, produto pronto para entrega.
+    
 
-Caso de uso: Fazer cadastro.
-Atores: Cliente, Loja.
-Pré-condição: Inserir dados corretos.
-Ações do sistema: 
-    • Pedir dados 
-    • verificar dados 
-Ações do cliente: 
-    • Inserir dados 
-    • Concluir Cadastro 
-Pós-condição: Cadastro concluído. 
-
-Login 
-Caso de uso: Fazer Login. 
-Atores: Cliente, Loja.
-Pré-condição: Ter cadastro. 
-Fluxo principal:
-Ações do sistema 
-    • Pedir usuário e senha 
-    • Verificar usuário e senha 
-Ações do cliente 
-    • Inserir usuário e senha 
-    • realizar Login 
-Fluxo de exceção: 
-Ações do cliente
-    • Cliente erra usuário ou senha 
-    • Cliente tenta fazer login sem possuir cadastro 
-Ações do sistema 
-    • Sistema oferece a opção recuperar senha 
-    • Sistema redireciona cliente para tela de cadastro 
-Include: Fazer Cadastro 
-Pós-condição: Login efetuado
-
-Feedback
-Caso de uso: Dar Feedback.
-Atores: Cliente, Loja.
-Pré-condição: Ter e-mail, WhatsApp ou Instagram. .
-Fluxo principal:
-Ações do sistema 
-    • Mostrar opções de contato para o cliente 
-    • Receber a mensagem do cliente 
-Ações do Cliente 
-    • Selecionar incon de contato 
-    • Selecionar uma das opções de contato 
-    • Escrever algo sobre o site 
-Include: Fazer login 
-Pós-condição: Feedback dado
-
-Produto
-Casos de uso: Selecionar Produto. 
-Atores: Cliente, Loja.
-Fluxo principal: 
-Ação do sistema  
-    • Armazenar produtos selecionados pelo cliente 
-Ação do cliente 
-    • Selecionar produtos de sua escolha 
-Fluxo de exceção: Produto não disponível. 
-Include: Fazer login
-Pós-condição: Produto (s) no carrinho 
-
-Pagamento
-Casos de uso: Realizar Pagamento. 
-Atores: Cliente, loja
-Pré-condição: Possuir cartão ou conta em algum banco. 
-Fluxo principal:
-Ação do sistema 
-    • Pedir que o cliente insira os dados necessários, como nome completo, cpf, endereço, dados do banco ou do cartão 
-    • Informar o cliente se o pagamento foi efetuado 
-Ação do cliente 
-    • Inserir dados pessoais e bancários 
-    • confirmar pagamento 
-Fluxo Alternativo 
-    • Cliente seleciona a forma de pagamento por boleto. 
-    • Sistema lança o boleto para o cliente, e aguarda o pagamento. 
-Include: Fazer login, selecionar produto (s). 
-Pós-condição: Pagamento efetuado, produto pronto para entrega.
