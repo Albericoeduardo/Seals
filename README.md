@@ -66,6 +66,6 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
       Os diagramas presentes neste tópico serão somente os das funcionalidades interativas presentes na versão atual do projeto.
 
-[Diagramas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
+[Tabelas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
 
    
