@@ -64,7 +64,7 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 <h3>:computer: Casos de uso</h3>
 
-      Os diagramas presentes neste tópico serão somente os presentes na versão atual do projeto.
+      Os diagramas presentes neste tópico serão somente os das funcionalidades presentes na versão atual do projeto.
 
 [Diagramas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
 
