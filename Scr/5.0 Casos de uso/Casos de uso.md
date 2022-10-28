@@ -1,6 +1,7 @@
 ## Casos de uso
 <br><b>Caso de uso:</b> Fazer cadastro</br>
         <b>Atores:</b>Cliente, Loja
+        <br><b>Descrição:</b>Este caso de uso descreve as etapas percorridas para o cliente realizar cadastro.<br>
         <br><b>Pré-condição:</b>Inserir dados corretos</br>
         <b>Ações do sistema:</b>
         <ul>
@@ -9,13 +10,14 @@
         </ul>
         <b>Ações do cliente:</b>
         <ul>
-            <li>Inserir dados</li>
-            <Li>Concluir Cadastro</Li>
+            <li>usuário inseri dados</li>
+            <Li>Usuário conclui Cadastro</Li>
         </ul>
         <b>Pós-condição:</b>Cadastro concluido. 
     <h3 class= SegundoCaso> Login </h3>
     <b>Caso de uso:</b>Fazer Login
     <br><b>Atores:</b>Cliente, Loja</br>
+    <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessária para o cliente realizar login.</br>
     <b>Pré-condição:</b>Ter cadastro.
     <br><b>Fluxo principal:</b></br><b>Acões do sistema</b>
     <ul>
@@ -24,14 +26,14 @@
     </ul>
     <b>Ações do cliente</b>
     <ul>
-        <li>Inserir usuário e senha</li>
-        <li>realizar Login</li>
+        <li>Usuário inseri usuário e senha</li>
+        <li>Usário realiza Login</li>
     </ul>
     <b>Fluxo de exceção:</b>
     <br><b>Ações do cliente</b></br>
     <ul>
-        <li>Cliente erra usuário ou senha</li>
-        <li>Cliente tenta fazer login sem possuir cadastro</li>
+        <li>Usuário erra usuário ou senha</li>
+        <li>Usuário tenta fazer login sem possuir cadastro</li>
     </ul>
     <b>Ações do sistema</b>
     <ul>
@@ -43,6 +45,7 @@
     <h3 class= TerceiroCaso> Feedback</h3>
     <B>Caso de uso:</B>Dar Feedback
     <br><b>Atores:</b>Cliente, Loja</br>
+    <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o cliente realizar feedback.</br>
     <b>Pré-condição:</b>Ter email, Whatsapp ou Instagram.
     <br><B>Fluxo principal:</B><br>
     <b>Ações do sistema</b>
@@ -52,15 +55,17 @@
     </ul>
     <b>Ações do Cliente</b>
     <ul>
-        <li>Selecionar incon de contato</li>
-        <li>Selecionar uma das opções de contato</li>
-        <li>Escrever algo sobre o site</li>
+        <li>usuário seleciona incon de contato</li>
+        <li>Usuário seleciona uma das opções de contato</li>
+        <li>Usuário escrever algum comentário sobre o site</li>
+        <li>Usuário envia comentário</li>
     </ul>
     <b>Include:</b> Fazer login
     <br><b>Pós-condição:</b>Feedback dado<br>
     <h3 class="QuartoCaso">Produto</h3>
     <b>Casos de uso:</b>Selecionar Produto
     <br><b>Atores:</b>Cliente,Loja<br>
+    <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o cliente selecionar um produto.</br>
     <b>Fluxo principal:</b>
     <br><b>Ação do sistema</b><br>
     <ul>
@@ -68,7 +73,7 @@
     </ul>
     <b>Ação do cliente</b>
     <ul>
-        <li>Selecionar produtos de sua escolha</li>
+        <li>Usuário seleciona produtos de sua escolha</li>
     </ul>
     <b>Fluxo de exceção:</b> Produto não disponivel.
     <br><B>Include:</B>Fazer login<br>
@@ -76,6 +81,7 @@
     <h3 class="QuintoCaso">Pagamento</h3>
     <b>Casos de uso:</b>Realizar Pagamento.
     <br><b>Atores:</b>Cliente,loja<br>
+    <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o usuário realizar um pagamento.</br>
     <b>Pré-condição:</b>Possuir cartão ou conta em algum banco.
     <br><b>Fluxo principal:</b><br>
     <b>Ação do sistema</b>
@@ -85,12 +91,13 @@
     </ul>
     <b>Ação do cliente</b>
     <ul>
-        <li>Inserir dados pessoais e bancarios</li>
-        <li>confirmar pagamento</li>
+        <li>Usuário escolhe uma forma de pagamento</li>
+        <li>Usuário inseri dados pessoais e bancarios</li>
+        <li>Usuário confirma pagamento</li>
     </ul>
     <br><b>Fluxo Alternativo</b>
     <ul>
-        <li>Cliente seleciona a forma de pagamento por boleto.</li>
+        <li>Usuário seleciona a forma de pagamento por boleto.</li>
         <li>Sistema lança o boleto para o cliente, e aguarda o pagamento.</li>
     </ul>
     <b>Include:</b>Fazer login, selecionar produto(s).
