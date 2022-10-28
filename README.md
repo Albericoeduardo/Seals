@@ -62,7 +62,7 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 [Autenticação](https://github.com/Albericoeduardo/Seals/blob/main/Scr/6.1%20Autentica%C3%A7%C3%A3o/Autentica%C3%A7%C3%A3o.md)
 
-<h3>Casos de uso</h3>
+<h3>:computer: Casos de uso</h3>
 
 [Casos de uso](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
 
