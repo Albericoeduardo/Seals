@@ -56,7 +56,7 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 [Modelo Lógico](https://github.com/Albericoeduardo/Seals/blob/main/Scr/7.1%20Banco%20de%20dados/Modelo_L%C3%B3gico.md)
 
-<h3>Autenticação</h3>
+<h3>:closed_lock_with_key: Autenticação</h3>
 
       As autenticações presentes no projeto estão em desenvolvimento, podendo ser alteradas a qualquer momento.
 
