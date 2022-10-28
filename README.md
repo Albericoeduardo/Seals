@@ -62,16 +62,22 @@ A criação do banco de dados se fez necessária desde os pré-requisitos inicia
 
 [Autenticação](https://github.com/Albericoeduardo/Seals/blob/main/Scr/6.1%20Autentica%C3%A7%C3%A3o/Autentica%C3%A7%C3%A3o.md)
 
-<h3>:computer: Casos de uso</h3>
+<h3>:computer: Casos de uso e Regras de negócio</h3>
 
       As tabelas presentes neste tópico serão somente as das funcionalidades interativas presentes na versão atual do projeto.
 
-[Tabelas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
-
-<h3>:briefcase:Regras de negócio</h3>
-
-      As regras de negócio presentes neste tópico serão somente as presente na versão atual do projeto.
+[Casos de uso](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
       
-[Tabelas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.1%20Regras%20de%20neg%C3%B3cio/Regras%20de%20neg%C3%B3cio.md)
+[Regras de negócio](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.1%20Regras%20de%20neg%C3%B3cio/Regras%20de%20neg%C3%B3cio.md)
 
-   
+<h3>:scroll: Política de uso</h3>
+
+      Neste tópico divulgamos quais informações coletamos, como as utilizamos e protegemos para que haja mais confiança entre a vertente usuário e loja.
+      
+[Termos de uso](https://github.com/Albericoeduardo/Seals/blob/main/Scr/8.0%20Pol%C3%ADtica%20de%20uso/Pol%C3%ADtica%20de%20uso.md)
+
+
+
+
+
+
