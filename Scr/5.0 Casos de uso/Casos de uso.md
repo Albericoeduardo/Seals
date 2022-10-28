@@ -1,99 +1,77 @@
 ## Casos de uso
-<br><b>Caso de uso:</b> Fazer cadastro</br>
-        <b>Atores:</b>Cliente, Loja
+<h3 class= PrimeiroCaso> Cadastro </h3>
+<br><b>Caso de uso 1:</b> Fazer cadastro</br>
+        <b>Atores:</b>Cliente
         <br><b>Descrição:</b>Este caso de uso descreve as etapas percorridas para o cliente realizar cadastro.<br>
         <br><b>Pré-condição:</b>Inserir dados corretos</br>
-        <b>Ações do sistema</b>
+        <b>Fluxo principal:</b>
         <ul>
-            <li>Pedir dados</li>
-            <li>verificar dados</li>
-        </ul>
-        <b>Ações do Usuário</b>
-        <ul>
-            <li>usuário inseri dados</li>
-            <Li>Usuário conclui Cadastro</Li>
+            <li>Sistema pedi que usuário insira dados</li>
+            <li>Usuário inseri dados</li>
+            <li>Sistema verifica dados</li>
+            <li>usuário conclui cadastro</li>
         </ul>
         <b>Pós-condição:</b>Cadastro concluido. 
     <h3 class= SegundoCaso> Login </h3>
-    <b>Caso de uso:</b>Fazer Login
-    <br><b>Atores:</b>Cliente, Loja</br>
+    <b>Caso de uso 2:</b>Fazer Login
+    <br><b>Atores:</b>Cliente</br>
     <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessária para o cliente realizar login.</br>
     <b>Pré-condição:</b>Ter cadastro.
-    <br><b>Fluxo principal:</b></br><b>Acões do sistema</b>
+    <br><b>Fluxo principal:</b></br>
     <ul>
-        <li>Pedir usuário e senha</li>
-        <li>Verificar usuário e senha</li>
+        <li>Sistema pede imail e senha</li>
+        <li>Usuário inseri imail e senha</li>
+        <li>Sistema verifica imail e senha do usuário</li>
+        <li>Usuário faz login</li>
     </ul>
-    <b>Ações do cliente</b>
+    <b>Fluxo Alternativo:</b>
     <ul>
-        <li>Usuário inseri usuário e senha</li>
-        <li>Usário realiza Login</li>
-    </ul>
-    <b>Fluxo de exceção:</b>
-    <br><b>Ações do usuário</b></br>
-    <ul>
-        <li>Usuário erra usuário ou senha</li>
+        <li>Usuário erra imail ou senha</li>
+        <li>Sistema bloqueia login do usuário</li>
         <li>Usuário tenta fazer login sem possuir cadastro</li>
-    </ul>
-    <b>Ações do sistema</b>
-    <ul>
-        <li>Sistema oferece a opção recuperar senha</li>
-        <li>Sistema redireciona cliente para tela de cadastro</li>
+        <li>Sistema redireciona usuário para tela de cadastro</li>
     </ul>
     <b>Include:</b>Fazer Cadastro
     <br><b>Pós-condição:</b>Login efetuado</br>
     <h3 class= TerceiroCaso> Feedback</h3>
-    <B>Caso de uso:</B>Dar Feedback
-    <br><b>Atores:</b>Cliente, Loja</br>
+    <B>Caso de uso 3:</B>Dar Feedback
+    <br><b>Atores:</b>Cliente</br>
     <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o cliente realizar feedback.</br>
     <b>Pré-condição:</b>Ter email, Whatsapp ou Instagram.
     <br><B>Fluxo principal:</B><br>
-    <b>Ações do sistema</b>
     <ul>
-        <li>Mostrar opções de contato para o cliente</li>
-        <li>Receber o mensagem do cliente</li>
-    </ul>
-    <b>Ações do usuário</b>
-    <ul>
-        <li>usuário seleciona incon de contato</li>
+        <li>Usuário clica no icon de contato
+        <li>Sistema mostra opções de contato para o usuário</li>
         <li>Usuário seleciona uma das opções de contato</li>
-        <li>Usuário escrever algum comentário sobre o site</li>
-        <li>Usuário envia comentário</li>
+        <li>Sistema redireciona usuário para a opção escolhida</li>
+        <li>Usuário escreve algum comentário e envia</li>
+        <li>Sistema recebe comentário</li>
     </ul>
     <b>Include:</b> Fazer login
     <br><b>Pós-condição:</b>Feedback dado<br>
     <h3 class="QuartoCaso">Produto</h3>
-    <b>Casos de uso:</b>Selecionar Produto
-    <br><b>Atores:</b>Cliente,Loja<br>
+    <b>Casos de uso 4:</b>Selecionar Produto
+    <br><b>Atores:</b>Cliente</br>
     <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o cliente selecionar um produto.</br>
     <b>Fluxo principal:</b>
-    <br><b>Ação do sistema</b><br>
     <ul>
-        <li>Armazenar produtos selecionados pelo cliente</li>
-    </ul>
-    <b>Ação do usuário</b>
-    <ul>
-        <li>Usuário seleciona produtos de sua escolha</li>
+        <li>Usuário seleciona algum produto
+        <li>Sistema armazena produto(s) selecionados pelo usuário</li>
     </ul>
     <b>Fluxo de exceção:</b> Produto não disponivel.
     <br><B>Include:</B>Fazer login<br>
     <b>Pós-condição:</b>Produto(s) no carrinho
     <h3 class="QuintoCaso">Pagamento</h3>
-    <b>Casos de uso:</b>Realizar Pagamento.
-    <br><b>Atores:</b>Cliente,loja<br>
+    <b>Casos de uso 5:</b>Realizar Pagamento.
+    <br><b>Atores:</b>Cliente,banco<br>
     <br><b>Descrição:</b>Esse caso de uso descreve as etapas necessárias para o usuário realizar um pagamento.</br>
     <b>Pré-condição:</b>Possuir cartão ou conta em algum banco.
     <br><b>Fluxo principal:</b><br>
-    <b>Ação do sistema</b>
     <ul>
-        <li>Pedir que o cliente ensira os dados necessarios, como nome completo, cpf, endereço , dados do banco ou do cartão</li>
-        <li>Informar o cliente se o pagamento foi efetuado</li>
-    </ul>
-    <b>Ações do usuário</b>
-    <ul>
-        <li>Usuário escolhe uma forma de pagamento</li>
-        <li>Usuário inseri dados pessoais e bancarios</li>
-        <li>Usuário confirma pagamento</li>
+        <li>Usuário escolhe forma de pagamento
+        <li>Sistema pedi que o usuário ensira os dados necessarios, como nome completo, cpf, endereço , dados do banco ou do cartão</li>
+        <li>Usuário inseri dados
+        <li>Sistema informa o usuário se o pagamento foi efetuado</li>
     </ul>
     <br><b>Fluxo Alternativo</b>
     <ul>
