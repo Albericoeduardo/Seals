@@ -54,14 +54,18 @@ PRODUTOS - Main/Produtos
 
 A criação do banco de dados se fez necessária desde os pré-requisitos iniciais propostos para o projeto. O banco de dados é MySQL e irá ser populado por PHP.
 
-[Modelo Lógico](https://github.com/Albericoeduardo/Seals/blob/main/Scr/Banco%20de%20dados/Modelo_L%C3%B3gico.md)
+[Modelo Lógico](https://github.com/Albericoeduardo/Seals/blob/main/Scr/7.1%20Banco%20de%20dados/Modelo_L%C3%B3gico.md)
 
-<h3>Autenticação</h3>
+<h3>:closed_lock_with_key: Autenticação</h3>
 
+      As autenticações presentes no projeto estão em desenvolvimento, podendo ser alteradas a qualquer momento.
 
-<h3>Casos de uso</h3>
+[Autenticação](https://github.com/Albericoeduardo/Seals/blob/main/Scr/6.1%20Autentica%C3%A7%C3%A3o/Autentica%C3%A7%C3%A3o.md)
 
-[Casos de uso](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
+<h3>:computer: Casos de uso</h3>
 
-   
+      Os diagramas presentes neste tópico serão somente os das funcionalidades interativas presentes na versão atual do projeto.
+
+[Diagramas](https://github.com/Albericoeduardo/Seals/blob/main/Scr/5.0%20Casos%20de%20uso/Casos%20de%20uso.md)
+
    
