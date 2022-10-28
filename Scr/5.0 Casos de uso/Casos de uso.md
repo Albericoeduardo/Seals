@@ -1,5 +1,5 @@
 ## Casos de uso
-Cadastro
+<h3>Cadastro<h3>
 
 Caso de uso: Fazer cadastro.
 Atores: Cliente, Loja.
