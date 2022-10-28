@@ -3,12 +3,12 @@
         <b>Atores:</b>Cliente, Loja
         <br><b>Descrição:</b>Este caso de uso descreve as etapas percorridas para o cliente realizar cadastro.<br>
         <br><b>Pré-condição:</b>Inserir dados corretos</br>
-        <b>Ações do sistema:</b>
+        <b>Ações do sistema</b>
         <ul>
             <li>Pedir dados</li>
             <li>verificar dados</li>
         </ul>
-        <b>Ações do cliente:</b>
+        <b>Ações do Usuário</b>
         <ul>
             <li>usuário inseri dados</li>
             <Li>Usuário conclui Cadastro</Li>
@@ -30,7 +30,7 @@
         <li>Usário realiza Login</li>
     </ul>
     <b>Fluxo de exceção:</b>
-    <br><b>Ações do cliente</b></br>
+    <br><b>Ações do usuário</b></br>
     <ul>
         <li>Usuário erra usuário ou senha</li>
         <li>Usuário tenta fazer login sem possuir cadastro</li>
@@ -53,7 +53,7 @@
         <li>Mostrar opções de contato para o cliente</li>
         <li>Receber o mensagem do cliente</li>
     </ul>
-    <b>Ações do Cliente</b>
+    <b>Ações do usuário</b>
     <ul>
         <li>usuário seleciona incon de contato</li>
         <li>Usuário seleciona uma das opções de contato</li>
@@ -71,7 +71,7 @@
     <ul>
         <li>Armazenar produtos selecionados pelo cliente</li>
     </ul>
-    <b>Ação do cliente</b>
+    <b>Ação do usuário</b>
     <ul>
         <li>Usuário seleciona produtos de sua escolha</li>
     </ul>
@@ -89,7 +89,7 @@
         <li>Pedir que o cliente ensira os dados necessarios, como nome completo, cpf, endereço , dados do banco ou do cartão</li>
         <li>Informar o cliente se o pagamento foi efetuado</li>
     </ul>
-    <b>Ação do cliente</b>
+    <b>Ações do usuário</b>
     <ul>
         <li>Usuário escolhe uma forma de pagamento</li>
         <li>Usuário inseri dados pessoais e bancarios</li>
