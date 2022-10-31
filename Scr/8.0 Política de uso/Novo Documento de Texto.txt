@@ -1,0 +1,15 @@
+## Política de uso
+
+<h3>Responsável pelo tratamento dos dados</h3>
+
+A Seals faz o tratamento completo dos seus dados de acordo com a Lei nº. 13.709/2018 da LGPD (Lei geral de proteção de dados).
+
+<h3>Dados coletados e quando</h3>
+
+Solicitamos alguns dados pessoais para lhes fornecer os produtos ou serviços desejados. Coletamos os dados quando você se cadastra, faz login, se cadastro, compra um produto e realiza o feedback com o nosso suporte.
+
+Dados coletados: Nome, sexo, data de nascimento, naturalidade, email, contato, endereço, login, senha, histórico de compras, informações de pagamento ou cartão de crédito.
+
+<h3>Como utilizamos seus dados</h3>
+
+Utilizamos os seus dados para fornecer produtos e serviços. Por exemplo, quando você realiza uma compra, utilizamos seu email e contato para confirmarmos a compra. Utilizamos também seu email para avisar de novidades e promoções que podem estar ocorrrendo no momento. Também utilizamos seus dados para evitar fraudes, abusos, usos ilegais e violações dos nossos termos de uso. Por fim, utilizamos seus dados para entendermos como funciona o comportamento e preferencia do cliente.
