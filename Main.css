@@ -142,9 +142,9 @@ header{
 .modal--show{
     opacity: 1;
     pointer-events: unset;
-    transition: opacity 0.6s 0.9s;
-    --transform: translateY(-100vh);
-    --transition: transform 0.8s
+    transition: opacity 0.6s;
+    --transform: translateY(0);
+    --transition: transform 0.8s 0.8s
 }
 .modal__container{
     display: flex;
