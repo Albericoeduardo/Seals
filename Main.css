@@ -88,6 +88,8 @@ header{
     gap: 200px 250px;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .conteudo-promocional img{
     border: 2px solid #FFFFFF;
@@ -122,4 +124,52 @@ header{
     color: #000000;  
     margin-top: 13px;
     margin-bottom: 13px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s 0.9s;
+    --transform: translateY(-100vh);
+    --transition: transform 0.8s;
+}
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.6s 0.9s;
+    --transform: translateY(-100vh);
+    --transition: transform 0.8s
+}
+.modal__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 500px;
+    width: 950px;
+    height: 850px;
+    background-color: #040507;
+}
+.modal__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F26250;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+.modal__close:hover{
+    color: #F26250;
+    background-color: #fff;
+}
+.feedback{
+    transition: background-color 0.3s;
 }
