@@ -133,6 +133,8 @@ header{
     bottom: 0;
     background-color: #111111bd;
     display: flex;
+    justify-content: center;
+    padding-top: 60px;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.6s 0.9s;
@@ -153,7 +155,27 @@ header{
     border-radius: 500px;
     width: 950px;
     height: 850px;
-    background-color: #040507;
+    background-color: #040507c5;
+    border: 5px solid #000000;
+}
+.modal__container h1{
+    font-family: 'inter';
+    font-size: 50px;
+    color: #DE3307;
+    padding-top: 50px;
+}
+.modal__container a{
+    font-family: 'inter';
+    font-size: 40px;
+    color: #000000;
+    width: 565px;
+    height: 105px;
+    background-color: #C93008;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-left: 120px;
+    margin: 50px;
 }
 .modal__close{
     text-decoration: none;
